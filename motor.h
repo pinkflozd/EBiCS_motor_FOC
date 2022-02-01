@@ -9,7 +9,7 @@ extern "C" {
 #endif
 
 // parameters for speed calculation
-#define WHEEL_CIRCUMFERENCE 690 // 690 for original M365 motor
+#define WHEEL_CIRCUMFERENCE 728 // 690 for original M365 motor
 #define GEAR_RATIO 15 // 15 for original M365 motor
 
 // ADC channels used to measure currents
@@ -25,12 +25,12 @@ extern "C" {
 
 // battery voltage limits in mV
 #define BATTERYVOLTAGE_MIN 33000
-#define BATTERYVOLTAGE_MAX 42000
+#define BATTERYVOLTAGE_MAX 58800
 
 #define CAL_I 38 // ADC counts * CAL_I = current in mA
 
 // maximum currents in mA
-#define BATTERYCURRENT_MAX 10000 // 10A, 36V battery, 350W limit
+#define BATTERYCURRENT_MAX 30000 // 10A, 36V battery, 350W limit
 #define REGEN_CURRENT_MAX 6000
 
 #define P_FACTOR_I_Q 100
